@@ -1,0 +1,254 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 1440x;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70px;
+}
+
+header .header-arrow {
+  position: absolute;
+  left: 30px;
+}
+
+.hero-banner {
+  text-align: center;
+  background-color: #f6f6f6;
+  height: 350px;
+}
+
+.hero-banner .hero-description {
+  padding: 50px;
+}
+
+.hero-banner .hero-localisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+  -webkit-box-shadow: 0px 20px 30px -37px inset;
+          box-shadow: 0px 20px 30px -37px inset;
+  background-color: #d3d3d34d;
+}
+
+.hero-banner i {
+  margin-right: 15px;
+}
+
+.hero-banner .hero-button {
+  margin-top: 15px;
+  border: none;
+  border-radius: 40px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(#ff79da, #9356dc);
+}
+
+.step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.step-process {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.step-title {
+  margin-right: 30px;
+}
+
+.step-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  margin-right: 40px;
+  width: 280px;
+  height: 60px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 30px -20px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 30px -20px;
+}
+
+.step-number {
+  background-color: #9356dc;
+  color: white;
+  height: 25px;
+  width: 28px;
+  text-align: center;
+  border-radius: 200px;
+  padding-top: 4px;
+  margin-left: -7px;
+  margin-right: 10px;
+}
+
+.step i {
+  color: gray;
+  margin-right: 15px;
+}
+
+.step p {
+  font-weight: bold;
+}
+
+.restaurants {
+  background: #f6f6f6;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.restaurants-title {
+  padding-left: 360px;
+  margin-bottom: 40px;
+}
+
+.restaurants-board {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 570px 600px;
+      grid-template-columns: 570px 600px;
+  -ms-grid-rows: 300px 300px;
+      grid-template-rows: 300px 300px;
+  grid-column-gap: 20px;
+}
+
+.restaurants-card {
+  width: 570px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.restaurants img {
+  width: 570px;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.restaurants-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurants-description {
+  line-height: 5px;
+  margin-left: 10px;
+}
+
+.restaurants-like {
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #353535;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-logo {
+  font-family: "Shrikhand";
+  color: white;
+  font-size: x-large;
+}
+
+.footer-menu {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-menu-list li {
+  margin-right: 40px;
+}
+
+.banner img {
+  height: 800px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu-title {
+  font-family: "Shrikhand";
+}
+
+.menu-title-block {
+  text-transform: uppercase;
+}
+
+.menu-grid {
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 5px;
+          box-shadow: 10px 10px 5px;
+  width: 383px;
+  height: 70px;
+}
+/*# sourceMappingURL=main.css.map */
