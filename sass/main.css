@@ -8,15 +8,21 @@ body {
 }
 
 header {
-  height: 70px;
-}
-
-header img {
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70px;
+}
+
+header .header-arrow {
+  position: absolute;
+  left: 30px;
 }
 
 .hero-banner {
@@ -135,12 +141,16 @@ header img {
 }
 
 .restaurants-board {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-grid-columns: 570px 600px;
+      grid-template-columns: 570px 600px;
+  -ms-grid-rows: 300px 300px;
+      grid-template-rows: 300px 300px;
+  grid-column-gap: 20px;
 }
 
 .restaurants-card {
@@ -218,4 +228,27 @@ header img {
 .footer-menu-list li {
   margin-right: 40px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.banner img {
+  height: 800px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu-title {
+  font-family: "Shrikhand";
+}
+
+.menu-title-block {
+  text-transform: uppercase;
+}
+
+.menu-grid {
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 5px;
+          box-shadow: 10px 10px 5px;
+  width: 383px;
+  height: 70px;
+}
+/*# sourceMappingURL=main.css.map */

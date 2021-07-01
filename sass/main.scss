@@ -14,11 +14,14 @@ body {
 
 // HEADER
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 70px;
-  img {
-    margin: auto;
-    display: flex;
-    padding: 10px;
+
+  .header-arrow {
+    position: absolute;
+    left: 30px;
   }
 }
 
@@ -115,8 +118,11 @@ header {
   }
 
   &-board {
-    display: flex;
+    display: grid;
     justify-content: center;
+    grid-template-columns: 570px 600px;
+    grid-template-rows: 300px 300px;
+    grid-column-gap: 20px;
   }
 
   &-card {
@@ -177,5 +183,35 @@ header {
         margin-right: 40px;
       }
     }
+  }
+}
+
+// LA PALETTE DU GOÛT
+
+.banner {
+  img {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.menu {
+  &-title {
+    font-family: "Shrikhand";
+
+    &-block {
+      text-transform: uppercase;
+    }
+  }
+
+  &-block {
+  }
+
+  &-grid {
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px;
+    width: 383px;
+    height: 70px;
   }
 }
